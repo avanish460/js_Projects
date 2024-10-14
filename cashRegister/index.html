@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>cash-register</title>
+</head>
+<body>
+    <main id="cash-register">
+        <header class="header">
+            <h1 class="heading">Cash Register Project</h1>
+            <div id="change-due"></div>
+            <div class="input-container">
+            <p>Enter cash from customer:</p>
+            <input id="cash" class="input-cash inbtn" type="number" >
+            <button id="purchase-btn" class="purchase-btn inbtn">Purchase</button>
+            </div>
+        </header>
+        <div class="cash-register-containers">
+            <div class="total">
+                <h3 class="total-price" id="total-price">Total: $1.87</h3>
+            </div>
+            <div class="block-container"></div>
+            <div class="containers">
+                <div class="container-numbers">
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                    <div class="number"></div>
+                </div>
+                <div id="cash-drawer-display" class="cash-drawer">
+                    <h3 class="cash-change">Change in drawer:</h3>
+                    <p>Pennies: $1.01</p>
+                    <p>Nickels: $2.05</p>
+                    <p>Dimes: $3.1</p>
+                    <p>Quarters: $4.25</p>
+                    <p>Ones: $90</p>
+                    <p>Fives: $55</p>
+                    <p>Tens: $20</p>
+                    <p>Twenties: $60</p>
+                    <p>Hundreds: $100</p>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="circle"></div>
+            </footer>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
